@@ -59,6 +59,20 @@ $(function(){
 		}
 		
 	});
+	$('.portfolio-link').on('click', function(e){
+		e.preventDefault();
+		var section = $('#portfolio');
+		
+		if( section.size() != 0 ){
+			
+			$('body').addClass('section-show');
+			
+			section.addClass('active');
+		
+		}
+		
+	});
+
 	$('.close-btn').on('click', function(){
 		$('body').removeClass('section-show');
 		$('section.active').removeClass('active');

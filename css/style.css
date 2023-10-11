@@ -2125,5 +2125,19 @@ body .symp-btn{
 		margin-top: 100px;
 	}
 }
-
-
+.text-indent-50{
+	text-indent: 50px;
+}
+.text-align-justify{
+	text-align: justify;
+}
+.portfolio-link{
+	text-decoration: none;
+	color:#fff;
+	font-weight: 700;
+	cursor: pointer;
+}
+.portfolio-link:hover{
+	text-decoration: none;
+	color:#ee4c7c;
+}
