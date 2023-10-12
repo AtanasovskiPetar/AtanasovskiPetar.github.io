@@ -1493,27 +1493,32 @@ body .symp-btn{
 	margin-bottom:45px;
 }
 .portfolio-items > .item{
-	width:33.333%;
+	width: 33.333%;
+	height: 270px;
 	position:relative;
 }
 @media(max-width:992px){
 	.portfolio-items > .item{
 		width:50%;
+		height: 270px;
 	}
 }
-.portfolio-items > .item{
-	padding-bottom: 20px;
-	width:80%;
-	margin-left:10%;
-}
+
 @media(max-width:768px){
 	.portfolio-items > .item{
 		width:100%;
+		height: 270px;
 		margin: auto;
 	}
 }
+.portfolio-items > .item > .inner{
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+}
 .portfolio-items > .item > .inner > img{
-	width:100%;
+	width: 100%;
+	height: 100%;
 }
 .portfolio-items > .item > .inner{
 	position:relative;
