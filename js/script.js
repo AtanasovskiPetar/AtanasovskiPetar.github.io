@@ -46,7 +46,7 @@ $(function(){
 	/*=========================================================================
 		Links Navigation System
 	=========================================================================*/
-	$('.front-person-links > ul > li > a[data-section]').on('click', function(e){
+	$('.front-person-links > ul > li[data-section]').on('click', function(e){
 		e.preventDefault();
 		var section = $('#' + $(this).data('section'));
 		
